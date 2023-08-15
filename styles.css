@@ -1,0 +1,48 @@
+
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+.Logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+    width: 300px;
+}
+.meal-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+h1 {
+    font-size: 26px;
+    text-align: center;
+    background-color: rgba(53, 160, 53, 0.586);
+    background-blend-mode: ;
+}
+
+h3 {
+    background-color: rgba(53, 160, 53, 0.586);
+    width: fit-content;
+    font-weight: 600;
+}
+.to-main-page {
+    font-size: 20px;
+    font-style: oblique;
+}
+
+img {
+    height: auto;
+    width: 500px;
+
+}
+
+.recipes {
+    color: rgb(43, 43, 43);
+    font-size: 17px;
+    font-weight: bold;
+}
