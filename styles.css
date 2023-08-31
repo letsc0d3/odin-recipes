@@ -3,42 +3,66 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 16px;
 }
+
+body {
+    background-color: rgba(206, 184, 141, 0.707);
+}
 .Logo {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    margin-bottom: 25px;
     width: 50%;
     height: auto;
     width: 300px;
+    border: 12px ridge;
+    border-radius: 10px;
+    border-color: #44a757;
 }
+
 .meal-pic {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 20px auto;
     width: 400px;
+    border: 1px solid #42824e1f;
 }
+
+.block-main, .block-sub {
+    background-color: rgb(236, 237, 237);
+    max-width: 800px;
+    margin: 0 auto 16px;
+    border-top: 40px solid #44a757 ;
+    border-radius: 10px;
+    padding: 0 10px 2px;
+}
+
+.block-sub {
+    border-top: 30px solid #44a757 ;
+    border-radius: 10px;
+}
+
 
 h1 {
     font-size: 26px;
     text-align: center;
-    background-color: rgba(53, 160, 53, 0.586);
-    background-blend-mode: ;
+    margin: -35px 0 0;
 }
 
 h3 {
-    background-color: rgba(53, 160, 53, 0.586);
-    width: fit-content;
+    font-size: 16px;
+    text-align: center;
     font-weight: 600;
+    margin: -25px 0 0;
+}
+
+li {
+    margin: 0 0 10px;
 }
 .to-main-page {
-    font-size: 20px;
+    display: block;
+    color: #425746;
+    font-size: 16px;
     font-style: oblique;
-}
-
-img {
-    height: auto;
-    width: 500px;
-
+    text-align: center;
 }
 
 .recipes {
